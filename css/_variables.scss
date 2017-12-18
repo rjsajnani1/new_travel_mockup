@@ -1,0 +1,68 @@
+//colors
+$primary_color: #835BA5; //orange
+$sub_primary_color: #F26E25;//purple
+$sub_primary_color2: #E8358F;//pink
+$secondary_color: #6a645e;
+$sub_secondary_color: #f28b23; //gold
+
+$highlight1:#f70090;
+$highlight2:#76d1ff;
+$highlight3:#f7ab20;
+
+$active_color: #004cf5;
+
+$btn_buy_now:#14ff0f;
+
+$star_color:#ff9f00;
+//
+$card_one:#FEF6ED;
+$card_two:#FEF1EC;
+$card_three:#FBEDF1;
+$card_four:#F6ECF0;
+$card_five:#ff5f0a;
+
+$fb_color: #2e64c1;
+$tw_color: #8dc4ea;
+$gp_color: #ff2626;
+
+$layp1: rgba(0,102,178,0.1);
+$layp2: rgba(0,102,178,0.2);
+$layp3: rgba(0,102,178,0.3);
+$layp4: rgba(0,102,178,0.4);
+$layp5: rgba(0,102,178,0.5);
+$layp6: rgba(0,102,178,0.6);
+$layp7: rgba(0,102,178,0.7);
+$layp8: rgba(0,102,178,0.8);
+$layp9: rgba(0,102,178,0.9);
+$layp10: rgba(0,102,178,1);
+
+$layb1: rgba(0,0,0,0.1);
+$layb2: rgba(0,0,0,0.2);
+$layb3: rgba(0,0,0,0.3);
+$layb4: rgba(0,0,0,0.4);
+$layb5: rgba(0,0,0,0.5);
+$layb6: rgba(0,0,0,0.6);
+$layb7: rgba(0,0,0,0.7);
+$layb8: rgba(0,0,0,0.8);
+$layb9: rgba(0,0,0,0.9);
+$layb10: rgba(0,0,0,1);
+
+$layw1: rgba(255,255,255,0.1);
+$layw2: rgba(255,255,255,0.2);
+$layw3: rgba(255,255,255,0.3);
+$layw4: rgba(255,255,255,0.4);
+$layw5: rgba(255,255,255,0.5);
+$layw6: rgba(255,255,255,0.6);
+$layw7: rgba(255,255,255,0.7);
+$layw8: rgba(255,255,255,0.8);
+$layw9: rgba(255,255,255,0.9);
+$layw10: rgba(255,255,255,1);
+
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}

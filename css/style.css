@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+body {
+  font-family: 'Fira Sans', sans-serif;
+  overflow-x: hidden; }
+
+.no_padding {
+  padding: 0;
+  margin: 5px; }
+  @media (min-width: 999px) {
+    .no_padding {
+      width: 50%; } }
+
+@media (min-width: 999px) {
+  .push_middle {
+    margin-top: calc(10% - 45px);
+    display: table-cell !important;
+    vertical-align: middle;
+    float: none;
+    padding-top: 5%; } }
+.push_middle .fa {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold; }
+
+#travel_header {
+  text-align: center;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75)), rgba(0, 0, 0, 0.55) url(../images/banner_img.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  min-height: 500px; }
+  #travel_header .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px; }
+  #travel_header .container .title {
+    padding: 10px; }
+  #travel_header .container hr {
+    width: 15%;
+    background-color: white !important;
+    color: white !important;
+    border: solid 2px white !important;
+    height: 0px !important; }
+  @media (min-width: 720px) {
+    #travel_header .container .main_text {
+      width: 60%;
+      padding: 20px 60px;
+      margin: 0 auto; } }
+  #travel_header .container li {
+    margin-left: calc(15% - 80px);
+    margin-right: calc(15% - 80px); }
+    @media (max-width: 540px) {
+      #travel_header .container li {
+        margin: 0; } }
+    #travel_header .container li .btn_single_trip {
+      background: rgba(0, 0, 0, 0.5); }
+      #travel_header .container li .btn_single_trip:hover {
+        background: #835BA5; }
+        #travel_header .container li .btn_single_trip:hover .fa {
+          visibility: visible;
+          color: white; }
+    #travel_header .container li .btn_annual_trip {
+      background: rgba(0, 0, 0, 0.5); }
+      #travel_header .container li .btn_annual_trip:hover {
+        background: #835BA5; }
+        #travel_header .container li .btn_annual_trip:hover .fa {
+          visibility: visible;
+          color: white; }
+    #travel_header .container li a {
+      text-decoration: none; }
+    #travel_header .container li button {
+      font-size: 16px;
+      letter-spacing: 1px;
+      border: none;
+      color: white;
+      -webkit-transition: background-color 0.5s ease-out;
+      -moz-transition: background-color 0.5s ease-out;
+      -ms-transition: background-color 0.5s ease-out;
+      -o-transition: background-color 0.5s ease-out;
+      transition: background-color 0.5s ease-out;
+      padding: 15px 25px;
+      text-align: left;
+      box-shadow: none;
+      border-radius: 5px;
+      margin-bottom: 20px; }
+      #travel_header .container li button .fa {
+        font-size: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: #835BA5;
+        -webkit-transition: color 0.2s ease-in;
+        -moz-transition: color 0.2s ease-in;
+        -ms-transition: color 0.2s ease-in;
+        -o-transition: color 0.2s ease-in;
+        transition: color 0.2s ease-in; }
+
+#popular_choice td {
+  border-top: none; }
+#popular_choice .images {
+  vertical-align: inherit; }
+  #popular_choice .images img {
+    float: right;
+    padding: 20px 5px; }
+    @media (max-width: 660px) {
+      #popular_choice .images img {
+        float: none; } }
+  #popular_choice .images .img-mockup {
+    width: 100px;
+    height: 100px;
+    background-color: grey; }
+
+.buttons .btn-group-vertical {
+  border-radius: none; }
+  .buttons .btn-group-vertical .btn {
+    margin-bottom: 15px; }
+    @media (max-width: 640px) {
+      .buttons .btn-group-vertical .btn {
+        display: inline-block; } }
+    .buttons .btn-group-vertical .btn:first-child:not(:last-child) {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0; }
+    .buttons .btn-group-vertical .btn:last-child {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0; }
+.buttons ul li {
+  margin-bottom: 10px; }
+  @media (max-width: 620px) {
+    .buttons ul li {
+      display: inline-block; } }
+  .buttons ul li button {
+    padding: 10px 25px; }
+    @media (max-width: 620px) {
+      .buttons ul li button {
+        width: auto; } }
+
+#picked_articles {
+  background-color: rgba(0, 0, 0, 0.3); }
+  #picked_articles .title {
+    color: white;
+    padding: 10px 0; }
+
+.buttons {
+  padding-top: 0; }
+  .buttons .btn {
+    margin-bottom: 10px; }
+  .buttons .btn_learn_more {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #004cf5;
+    color: black;
+    width: 100%;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out; }
+    .buttons .btn_learn_more:hover {
+      background-color: #004cf5;
+      color: white; }
+  .buttons .btn_buy_now {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #14ff0f;
+    color: black;
+    width: 100%;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -ms-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out; }
+    .buttons .btn_buy_now:hover {
+      background-color: #14ff0f;
+      color: white; }
+
+#new_flow .insurance_description .insurer_name {
+  margin: 8px 0;
+  font-size: 18px;
+  padding-bottom: 5px; }
+#new_flow .insurance_description p {
+  padding: 0;
+  margin: 0; }
+#new_flow .fa-star {
+  margin-top: 10px;
+  color: #ff9f00; }
+#new_flow .product_highlights {
+  font-size: 13px; }
+#new_flow .card_one1 {
+  background-color: #FEF6ED;
+  border-radius: 5px;
+  border-bottom: 3px solid #FEEAD2; }
+#new_flow .card_two1 {
+  background-color: #FEF1EC;
+  border-radius: 5px;
+  border-bottom: 3px solid #FCDFD1; }
+#new_flow .card_three1 {
+  background-color: #FBEDF1;
+  border-radius: 5px;
+  border-bottom: 3px solid #F7D5DF; }
+#new_flow .card_four1 {
+  background-color: #F6ECF0;
+  border-radius: 5px;
+  border-bottom: 3px solid #EAD3DD; }
+@media (max-width: 667px) {
+  #new_flow .card_five1 {
+    margin: 75px 0 10px; } }
+
+.fa-star {
+  margin-top: 10px;
+  color: #ff9f00; }
+
+.card, .cards .card_one, #new_flow1 .card_one, .cards .card_two, #new_flow1 .card_two, .cards .card_three, #new_flow1 .card_three, .cards .card_four, #new_flow1 .card_four, .cards .card_five, #new_flow1 .card_five {
+  padding: 2px;
+  margin-bottom: 5px; }
+
+.card1, .card_one, .card_two, .card_three, .card_four {
+  min-height: 101px; }
+  @media (min-width: 720px) {
+    .card1, .card_one, .card_two, .card_three, .card_four {
+      width: 23%;
+      margin: 0 5px; } }
+  @media (max-width: 667px) {
+    .card1, .card_one, .card_two, .card_three, .card_four {
+      width: 45%;
+      margin: 5px; } }
+
+.cards .card_one, #new_flow1 .card_one {
+  background-color: #FEF6ED;
+  border-radius: 5px;
+  border-bottom: 3px solid #FEEAD2; }
+.cards .card_two, #new_flow1 .card_two {
+  background-color: #FEF1EC;
+  border-radius: 5px;
+  border-bottom: 3px solid #FCDFD1; }
+.cards .card_three, #new_flow1 .card_three {
+  background-color: #FBEDF1;
+  border-radius: 5px;
+  border-bottom: 3px solid #F7D5DF; }
+.cards .card_four, #new_flow1 .card_four {
+  background-color: #F6ECF0;
+  border-radius: 5px;
+  border-bottom: 3px solid #EAD3DD; }
+@media (max-width: 667px) {
+  .cards .card_five, #new_flow1 .card_five {
+    margin: 25% 0 20px; } }
+.cards .card_five .product_highlights, #new_flow1 .card_five .product_highlights {
+  font-size: 18px;
+  font-weight: bold; }
+
+.price_info {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold; }
+
+#new_flow1 {
+  margin: 20px 0; }
+  #new_flow1 .card_one {
+    background-color: #FEF6ED;
+    border-radius: 5px;
+    border-bottom: 3px solid #FEEAD2; }
+  #new_flow1 .card_two {
+    background-color: #FEF1EC;
+    border-radius: 5px;
+    border-bottom: 3px solid #FCDFD1; }
+  #new_flow1 .card_three {
+    background-color: #FBEDF1;
+    border-radius: 5px;
+    border-bottom: 3px solid #F7D5DF; }
+  #new_flow1 .card_four {
+    background-color: #F6ECF0;
+    border-radius: 5px;
+    border-bottom: 3px solid #EAD3DD; }
+  @media (max-width: 667px) {
+    #new_flow1 .card_five {
+      margin: 0 0 10px; } }
+
+.card_one {
+  background-color: #FEF6ED;
+  border-radius: 5px;
+  border-bottom: 3px solid #FEEAD2; }
+
+.card_two {
+  background-color: #FEF1EC;
+  border-radius: 5px;
+  border-bottom: 3px solid #FCDFD1; }
+
+.card_three {
+  background-color: #FBEDF1;
+  border-radius: 5px;
+  border-bottom: 3px solid #F7D5DF; }
+
+.card_four {
+  background-color: #F6ECF0;
+  border-radius: 5px;
+  border-bottom: 3px solid #EAD3DD; }
+
+@media (max-width: 667px) {
+  .card_five {
+    margin: 0 0 10px; } }
+
+#modify_search {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 10px;
+  position: absolute; }
+
+#insurer_main_description {
+  margin-top: 120px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+  #insurer_main_description p {
+    width: 80%;
+    padding: 0 20px 0 0;
+    text-align: justify; }
+
+#insurer_plans h5, #insurer_plans h6 {
+  margin: 2px; }
+#insurer_plans .rounded_border {
+  border: 2px solid #835BA5;
+  border-radius: 10px;
+  padding: 10px; }
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  z-index: 99999;
+  background-color: grey !important;
+  display: table; }
+
+.active_plan {
+  background-color: rgba(255, 159, 0, 0.9);
+  color: white; }
+
+#option_4 {
+  padding: 10px; }
+  #option_4 .row {
+    display: table !important; }
+
+@media (max-width: 667px) {
+  .insurer_name {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
